@@ -1,0 +1,66 @@
+﻿<!-- FindMatches.cshtml
+Created by: Paula Faidley
+Purpose: This page is intended to be a page where users can choose to start a conversation or ignore someone they've matched with.
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="~/css/style.css" />
+<!-- Header and Title -->
+<head>
+<title> Last Hope Dating </title>
+ <meta charset="utf-8">
+  </head>
+  <div class="container">
+    <h1>Last Hope Dating</h1>      
+  </div>
+
+<!-- Body -->
+
+<body> 
+
+
+    <!-- Navigation Bar -->
+  <div class="sidenav">
+      <a href="@Url.Action("FindMatches", "Home")">Home </a>
+     <a href="@Url.Action("Profile", "Home")">My Account</a>
+      <a href="#">Matches</a>
+      <a href="#">Help</a>
+  </div>
+</nav>
+
+<div>
+<h2> You have matched with: </h2>
+
+<!-- This will be replaced with specified name in the future -->
+<div class="matchname"> Hank Smith </div>
+</div>
+
+<div class="matchphoto"> <img src="../images/hank.jpeg" alt="Hank Smith"> </div>
+
+<div class="button-container-div">
+<a href="#" class="button1"> Start a Conversation 
+<a href="#" class="button2"> Ignore Match </a></div>
+
+
+       <!-- Footer -->
+<div class="footer">
+    <h3>&copy; 2022 Last Hope Dating</h3>
+</div>
+
+
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+

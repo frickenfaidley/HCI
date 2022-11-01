@@ -1,0 +1,64 @@
+﻿<!-- FindMatches.cshtml
+Created by: Cameron Dawson
+Purpose: This page is intended to be a page where users can login or choose to sign up for the site.
+-->
+<!DOCTYPE html>
+<html>
+
+    <!-- Header and Title -->
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Login Page">
+        <meta name="keywords" content="Login">
+        <link rel="stylesheet" href="~/css/style.css">
+    </head>
+      <div class="headcontain">
+    <h1>Last Hope Dating</h1>      
+  </div>
+
+<!-- Body -->
+
+<body>
+<nav>
+
+    <!-- Navigation Bar -->
+  <div class="sidenav">
+      <a href="@Url.Action("FindMatches", "Home")">Home </a>
+      <a href="@Url.Action("Profile", "Home")">My Account</a>
+      <a href="@Url.Action("Matched", "Home")">Matches</a>
+      <a href="#">Help</a>
+  </div>
+</nav>  
+        <div class="container">
+            <label class="emaillab" for="username"><b>Email</b></label>
+            <br>
+            <input type="text" placeholder="Email" required>
+            <br>
+            <label class="passlab" for="password"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Password" name="password" required>
+            <br>
+            <input type="checkbox" class="showcheck">Show Password
+            
+            <br>
+            <div class="inputbut">
+            <button type="button" class="forgotpass">Forgot Password</button>
+            <button type="submit" class="loginbut">Login</button>
+            </div>
+        </div>
+        <br>
+        <div class="createcontain">
+             Don't have an account?
+            <button type="button" class="createacc">Create Account</button>
+        </div>
+    
+               <!-- Footer -->
+    <div class="footer">
+    <h3>&copy; 2022 Last Hope Dating</h3>
+	
+</div>
+    
+    
+    </body>
+</html>
