@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zuPVYe2+MBPf7jIS6QZbFuUp/d8QAHru6LTuE2wsHy8=",
+  "Hash": "Vwi9dwWjVErMqEtq7vQZ+BseLRwCkHG8g1F+Z66qPD8=",
   "Source": "Last Hope Dating",
   "BasePath": "_content/Last Hope Dating",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\wwwroot\\css\\style.scss",
+      "SourceId": "Last Hope Dating",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\wwwroot\\",
+      "BasePath": "_content/Last Hope Dating",
+      "RelativePath": "css/style.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.scss"
     },
     {
       "Identity": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\wwwroot\\favicon.ico",
