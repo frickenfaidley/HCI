@@ -30,7 +30,7 @@ p {
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 180px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -43,7 +43,7 @@ p {
     .sidenav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: #818181;
         display: block;
     }
@@ -64,13 +64,15 @@ p {
 
 .footer {
     font-family: Garamond, Baskerville, "Baskerville Old Face";
-    background-color: white;
+
+    max-width: 600px;
+
     text-align: center;
+    padding-right: 0px;
     padding-bottom: 50px;
-    margin-left: 40%;
-    min-width: 20px;
-    max-width: 420px;
+    padding-left: 0px;
 }
+
 
 h3 {
     font-family: Garamond, Baskerville, "Baskerville Old Face";
@@ -98,8 +100,10 @@ h3 {
     padding-left: 80px;
 }
 
+
 .button-container-div {
     text-align: center;
+    position: relative;
 }
 
 .button1 {
@@ -175,9 +179,9 @@ input[type=radio] {
     font-family: Garamond, Baskerville, "Baskerville Old Face";
     letter-spacing: 3px;
     text-align: center;
-    padding-right: 30px;
+    padding-right: 0px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 0px;
 }
 
 .inputbut {
@@ -258,11 +262,13 @@ input[type=radio] {
 
 .button-container-div {
     text-align: center;
-    padding-top: 15px;
+
+
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 30px;
     padding-bottom: 50px;
-    margin-left: 40%;
-    min-width: 20px;
-    max-width: 420px;
+    padding-left: 80px;
 }
 
 .likereact {
@@ -276,6 +282,7 @@ Heart react image spacing
 .fa.fa-2x {
     padding: 10px;
 }
+
 
 .dislikereact {
     height: 90px;
@@ -315,22 +322,62 @@ Heart react image spacing
     text-align: center;
 }
 
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
+.background-image {
     width: 100%;
-    height: 0;
-    transition: .5s ease;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    background-size: 300px;
+    border-radius: 4px;
+    margin: 4px;
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
 }
 
-.container:hover .overlay {
-    bottom: 0;
-    height: 100%;
+.textOverImage {
+    width: 300px;
+    height: 245px;
+    display: inline-block;
+    background-size: 300px;
+    border-radius: 4px;
+    margin: 4px;
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
 }
+
+    .textOverImage > input {
+        display: none;
+    }
+
+    .textOverImage > div, .textOverImage > h2 {
+        position: absolute;
+        background-color: rgba(255,255,255,0.8);
+        bottom: 20px;
+        left: 4px;
+        right: 4px;
+        border-radius: 4px;
+        padding: 8px;
+        overflow: hidden;
+        opacity: 0;
+        transition: .3s;
+    }
+
+    .textOverImage:hover > h2, .textOverImage > input:checked + h2 + div {
+        bottom: 4px;
+        opacity: 1;
+    }
+
+    .textOverImage > input:checked + h2 {
+        bottom: -20px;
+        opacity: 0;
+    }
+
+    .textOverImage > h2 {
+        margin: 0;
+    }
 
 .text {
     color: white;
@@ -354,4 +401,76 @@ Heart react image spacing
     width: 100%;
     height: 100%;
 
+}
+
+.emaillab {
+    padding-right: 155px;
+    position: static;
+}
+
+.passlab {
+    padding-right: 125px;
+    position: static;
+}
+
+.firstname {
+    padding-right: 50px;
+}
+
+.lastname {
+    padding-left: 55px;
+}
+
+.username {
+    padding-right: 60px;
+}
+
+.passreg {
+    padding-left: 60px
+}
+
+.agereg {
+    margin: 8px 90px;
+}
+
+.zipreg {
+    margin: 8px 65px;
+}
+
+.agebox[type=text] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.zipbox[type=text] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.createbutt {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.thanksp {
+    font-family: Garamond, Baskerville, "Baskerville Old Face";
+    font-size: 25px;
+}
+
+.emailp {
+    font-family: Garamond, Baskerville, "Baskerville Old Face";
+    font-size: 20px;
+}
+
+.logredirect {
+    width: 100px;
+    height: 35px;
 }

@@ -25,7 +25,7 @@ namespace Last_Hope_Dating.Controllers
             return View();
         }
 
-    public IActionResult AddPfP()
+        public IActionResult AddPfP()
         {
             return View();
         }
@@ -41,6 +41,16 @@ namespace Last_Hope_Dating.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult AccountCreate()
+        {
+            return View();
+        }
+
+        public IActionResult CreateConfirm()
         {
             return View();
         }

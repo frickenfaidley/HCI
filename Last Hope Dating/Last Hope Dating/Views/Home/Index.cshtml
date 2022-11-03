@@ -24,10 +24,7 @@ Purpose: This page is intended to be a page where users can login or choose to s
 
     <!-- Navigation Bar -->
   <div class="sidenav">
-      <a href="@Url.Action("FindMatches", "Home")">Home </a>
-      <a href="@Url.Action("Profile", "Home")">My Account</a>
-      <a href="@Url.Action("Matched", "Home")">Matches</a>
-      <a href="#">Help</a>
+
   </div>
 </nav>  
         <div class="container">
@@ -37,27 +34,41 @@ Purpose: This page is intended to be a page where users can login or choose to s
             <br>
             <label class="passlab" for="password"><b>Password</b></label>
             <br>
-            <input type="password" placeholder="Password" name="password" required>
+            <input type="password" placeholder="Password" name="password" id="password" required>
             <br>
-            <input type="checkbox" class="showcheck">Show Password
-            
+            <input type="checkbox" class="showcheck" id="pass" onclick="showpass(this);">
+            <label class="showpass">Show Password</label>
+
+            <script type="text/javascript">
+                function showpass(check_box) {
+                    var spass = document.getElementById("password");
+                    if (check_box.checked)
+                        spass.setAttribute("type", "text");
+                    else
+                        spass.setAttribute("type", "password");
+                }
+           </script>
+
             <br>
             <div class="inputbut">
             <button type="button" class="forgotpass">Forgot Password</button>
-            <button type="submit" class="loginbut">Login</button>
+            <button type="submit" class="loginbut"><a href="@Url.Action("FindMatches", "Home")">Login</a></button>
             </div>
-        </div>
         <br>
         <div class="createcontain">
-             Don't have an account?
-            <button type="button" class="createacc">Create Account</button>
+            <label>Don't have an account?</label>
+            <br />
+            <button type="button" class="createacc"><a href="@Url.Action("AccountCreate", "Home")">Create Account</a></button>
+
         </div>
+       
     
                <!-- Footer -->
     <div class="footer">
-    <h3>&copy; 2022 Last Hope Dating</h3>
-	
-</div>
+    <p>&copy; 2022 Last Hope Dating</p>
+	</div>
+    </div>
+
     
     
     </body>
