@@ -8,53 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Last_Hope_Dating
 build_property.RootNamespace = Last_Hope_Dating
-build_property.ProjectDir = C:\Users\faidl\Downloads\HCI\Last Hope Dating\Last Hope Dating\
+build_property.ProjectDir = C:\Users\Matthew\Source\Repos\HCI\Last Hope Dating\Last Hope Dating\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\faidl\Downloads\HCI\Last Hope Dating\Last Hope Dating
+build_property.MSBuildProjectDirectory = C:\Users\Matthew\Source\Repos\HCI\Last Hope Dating\Last Hope Dating
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/AddPfP.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/AccountCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/AddPfP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQZlAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/FindMatches.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/CreateConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/FindMatches.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kTWF0Y2hlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Index.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Matched.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Matched.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXRjaGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Privacy.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Profile.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/Error.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/_ViewImports.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/_ViewStart.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/faidl/Downloads/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/_Layout.cshtml]
+[C:/Users/Matthew/source/repos/HCI/Last Hope Dating/Last Hope Dating/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ozu7dj3brr
