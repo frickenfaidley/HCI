@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "N9mD0KoF5s3ByiJEqGDTMA/3+LI7DOPDHprNOixWNPX1zHo2NVqsTkoq1sirS+5y2cehCtFyOYcEqNTlxAmcQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+=======
+  "dgSpecHash": "x1mnAihzUSqFpv/jFO5V/VAttSGwCbBPqJCwWE4hLaxD0ceedS0MPMiTkWfuIwweVuv/0LY7uo4W0i1xv4bWPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\faidl\\Downloads\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+>>>>>>> 6ab5d85b3b61d7f41cff55784cc4f4042c09c485
   "expectedPackageFiles": [],
   "logs": []
 }

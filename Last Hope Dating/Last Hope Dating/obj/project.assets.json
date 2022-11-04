@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
       "projectName": "Last Hope Dating",
       "projectPath": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
       "packagesPath": "C:\\Users\\faidl\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\faidl\\Downloads\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+      "projectName": "Last Hope Dating",
+      "projectPath": "C:\\Users\\faidl\\Downloads\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+      "packagesPath": "C:\\Users\\faidl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faidl\\Downloads\\HCI\\Last Hope Dating\\Last Hope Dating\\obj\\",
+>>>>>>> 6ab5d85b3b61d7f41cff55784cc4f4042c09c485
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\faidl\\AppData\\Roaming\\NuGet\\NuGet.Config",
