@@ -1,0 +1,76 @@
+﻿<!-- AccountCreate.cshtml
+Created by: Cameron Dawson
+Purpose: This page is intended to be a page where users can login or choose to sign up for the site.
+-->
+<!DOCTYPE html>
+<html>
+
+    <!-- Header and Title -->
+    <head>
+        <title>Create Account</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Create Account">
+        <meta name="keywords" content="Create Account">
+        <link rel="stylesheet" href="~/css/style.css">
+    </head>
+        <div class="header">
+    <h1> <a href="@Url.Action("FindMatches", "Home")" class="logo"><img src="~/images/logo.png" alt="Last Hope Dating" /></a></h1>     
+  </div>
+
+<!-- Body -->
+
+<body>
+<nav>
+
+    <!-- Navigation Bar -->
+  <div class="sidenav">
+
+  </div>
+</nav>  
+       <div class="container">
+            <div>
+                <label class="firstname" for="firstname"><b>First Name</b></label>
+                <label class="lastname" for="lastname"><b>Last Name</b></label>
+                <br>
+                <input type="text" class="boxpad" placeholder="First Name" required>
+                <input type="text" class="boxpad"placeholder="Last Name" required>
+            </div>
+            <br>
+            <div>
+                <label class="username" for="username"><b>Username</b></label>
+                <label class="passreg" for="password"><b>Password</b></label>
+                <br>
+                <input type="text" class="boxpad" placeholder="Username" required>
+                <input type="password" class="boxpad" placeholder="Password" required>
+            </div>
+            <br>
+            <div>
+                <label class="agereg" for="age"><b>Age</b></label>
+                <label class="zipreg" for="zip"><b>Zipcode</b></label>
+                <br>
+                <input type="text" class="agebox" placeholder="Age" required>
+                <input type="text" class="zipbox" placeholder="Zipcode" required>
+            </div>
+            <br>
+            <div>
+                <label class="emailreg" for="email"><b>Email</b></label>
+                <br>
+                <input type="text" class="emailbox" placeholder="Email" required>
+                <br>
+                <button type="button" class="createbutt"><a href="@Url.Action("CreateConfirm", "Home")">Create</a></button>
+            </div>
+        
+        <br>
+        <div class="createcontain">
+             <label>Already have an account?</label>
+            <button type="button" class="createacc"> <a href="@Url.Action("Index", "Home")">Login</a></button>
+        </div>
+    <div class="footer">
+    <p>&copy; 2022 Last Hope Dating</p>
+	
+</div>
+</div>
+    
+    
+    </body>
+</html>

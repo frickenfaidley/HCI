@@ -13,8 +13,8 @@ Purpose: This page is intended to be a page where users can choose to start a co
 <title> Last Hope Dating </title>
  <meta charset="utf-8">
   </head>
-  <div class="container">
-    <h1>Last Hope Dating</h1>      
+  <div class="header">
+    <h1> <a href="@Url.Action("FindMatches", "Home")" class="logo"><img src="~/images/logo.png" alt="Last Hope Dating" /></a></h1>     
   </div>
 
 <!-- Body -->
@@ -27,29 +27,31 @@ Purpose: This page is intended to be a page where users can choose to start a co
       <a href="@Url.Action("FindMatches", "Home")">Home </a>
      <a href="@Url.Action("Profile", "Home")">My Account</a>
       <a href="#">Matches</a>
+      <a href="@Url.Action("Index", "Home")">Logout</a>
       <a href="#">Help</a>
   </div>
 </nav>
-
+<div class="container">
 <div>
-<h2> You have matched with: </h2>
+    <br /><br />
+<p style="padding-bottom:1px;font-size:1.5rem"> You have matched with: <br /><b>Hank Smith</b></p>
 
 <!-- This will be replaced with specified name in the future -->
-<div class="matchname"> Hank Smith </div>
 </div>
 
 <div class="matchphoto"> <img src="../images/hank.jpeg" alt="Hank Smith"> </div>
 
-<div class="button-container-div">
-<a href="#" class="button1"> Start a Conversation 
-<a href="#" class="button2"> Ignore Match </a></div>
 
+<a href="#" class="button1"> Start a Conversation 
+<a href="#" class="button2"> Ignore Match </a>
+
+<br /><br />
 
        <!-- Footer -->
 <div class="footer">
-    <h3>&copy; 2022 Last Hope Dating</h3>
+    <p>&copy; 2022 Last Hope Dating</p>
 </div>
-
+</div>
 
  </body>
 

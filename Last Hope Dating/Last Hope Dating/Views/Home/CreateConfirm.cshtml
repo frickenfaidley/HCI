@@ -1,0 +1,44 @@
+﻿<!-- CreateConfirm.cshtml
+Created by: Cameron Dawson
+Purpose: This page is intended to be a page where users can login or choose to sign up for the site.
+-->
+<!DOCTYPE html>
+<html>
+
+    <!-- Header and Title -->
+    <head>
+        <title>Create Confirm</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Create Confirm">
+        <meta name="keywords" content="Create Confirm">
+        <link rel="stylesheet" href="~/css/style.css">
+    </head>
+      <div class="header">
+    <h1> <a href="@Url.Action("FindMatches", "Home")" class="logo"><img src="~/images/logo.png" alt="Last Hope Dating" /></a></h1>     
+  </div>
+
+<!-- Body -->
+
+<body>
+<nav>
+
+    <!-- Navigation Bar -->
+  <div class="sidenav">
+
+  </div>
+</nav>  
+       <div class="container">
+            <p class="thanksp"><b>Thank you for creating an account!</b></p>
+            <p class="emailp"><b>Please check your email!</b></p>
+            
+            <button type="button" class="logredirect"> <a href="@Url.Action("Index", "Home")">Login</a></button>
+        
+    <br /><br />
+    <div class="footer">
+    <p>&copy; 2022 Last Hope Dating</p>
+	
+</div>
+    </div>
+    
+    </body>
+</html>
