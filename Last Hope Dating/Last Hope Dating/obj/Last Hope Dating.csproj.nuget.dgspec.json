@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj": {}
+    "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj": {
+    "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+        "projectUniqueName": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
         "projectName": "Last Hope Dating",
-        "projectPath": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
+        "projectPath": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\Last Hope Dating.csproj",
         "packagesPath": "C:\\Users\\faidl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faidl\\OneDrive\\Desktop\\HCI\\Deliverable 2\\Last_Hope_Dating\\Last_Hope_Dating\\Last Hope Dating\\Last Hope Dating\\obj\\",
+        "outputPath": "C:\\Users\\faidl\\Downloads\\HCI\\HCI\\Last Hope Dating\\Last Hope Dating\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\faidl\\AppData\\Roaming\\NuGet\\NuGet.Config",
